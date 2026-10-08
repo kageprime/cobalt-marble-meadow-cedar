@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Cellwright",
+      "hasCanvas": true,
+      "bodyTextLen": 783,
+      "bodyTextHash": "3a2ebd8464538d278d4176ed2d0b65003af307bac7b19958bfd68e3884260ad6",
+      "bodyTextPrefix": "Animation desk Cellwright Roll Recolor Pin Shelf 0 Archetype Kni",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Cellwright",
+      "hasCanvas": true,
+      "bodyTextLen": 143,
+      "bodyTextHash": "4bd6b9a1cd0059276f0be1a31d66ad90fa825991cee23213d17ad7ad9c1939b4",
+      "bodyTextPrefix": "Animation desk Cellwright Roll Recolor Pin Shelf 0 Stage Fighter",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
